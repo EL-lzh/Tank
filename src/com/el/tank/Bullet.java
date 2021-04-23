@@ -18,7 +18,7 @@ public class Bullet {
     }
     public void paint(Graphics g){
         Color c = g.getColor();
-        g.setColor(c.red);
+        g.setColor(Color.red);
         g.fillOval(x, y, WIDTH, HEIGHT);
         g.setColor(c);
         move();
